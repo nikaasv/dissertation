@@ -1,0 +1,38 @@
+.Product-card {
+  border: 10px solid black;
+  padding: 1vmin;
+  margin: 25px 20px;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px lightgrey;
+}
+.Product-link {
+  z-index: 1;
+  position: relative;
+}
+
+.price {
+  margin: 2px;
+}
+
+.Card-image {
+  width: 100%;
+  min-height: 20vw;
+  background-color: black; /* fallback color */
+  background-position: center;
+  background-size: cover;
+}
+
+.Product-card:hover .Card-image,
+.Product-card:focus .Card-image {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+
+.Product-card a {
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

@@ -1,15 +1,14 @@
 import React from "react";
 import "./ProductList.css";
 import products from "../../constants/products";
-import { NavLink } from "react-router-dom";
+import ProductCard from "../ProductCard";
 
 const ProductList = props => (
-  <>
-    <h2>Hi, I am the list of products</h2>
+  <div className="products-container">
     {products.map(item => (
-      <NavLink to={`/products/${item.id}`}>{item.name}</NavLink>
+      <ProductCard product={item} />
     ))}
-  </>
+  </div>
 );
 
 export default ProductList;

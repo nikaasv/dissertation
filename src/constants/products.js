@@ -1,21 +1,35 @@
+import beeNecklace from "../assets/images/beeNecklace.jpg";
+import blackNecklace from "../assets/images/blackNecklace.jpg";
+import chainNecklace from "../assets/images/chainNecklace.jpg";
+
 const products = [
   {
     id: 1,
-    name: "pippi 1",
-    description: "Fruit-decorated Hat not even the Queen would wear"
+    name: "Bee Necklace",
+    description: "Bee Necklace",
+    price: "£10",
+    thumb: beeNecklace
   },
   {
     id: 2,
-    name: "pippi 2",
-    description: "Fancy Dress",
-    img:
-      "http://www.autoalivedress.com/image/product/hotwedding/renew/pwedsku0057/pwedsku0057-1.jpg"
+    name: "Black Necklace",
+    description: "Black large necklace",
+    price: "£15",
+    thumb: blackNecklace
   },
-  { id: 3, name: "pippi 3", description: "Stiletto Heels" },
-  { id: 4, name: "pippi 4", description: "Salmon socks  " },
+  {
+    id: 3,
+    name: "Chain Necklace",
+    thumb: chainNecklace,
+    description: "Chain Necklace ",
+    price: "10£",
+    thumb: chainNecklace
+  },
+  { id: 4, name: "pippi 4", thumb: beeNecklace, description: "Salmon socks  " },
   {
     id: 5,
     name: "pippi 5",
+    thumb: beeNecklace,
     description: "Silver ring",
     img:
       "https://tse2.mm.bing.net/th?id=OIP.xZo5pDRh--Da4505ZYbYcwHaHa&pid=Api&P=0&w=300&h=300"
