@@ -1,20 +1,17 @@
 import React from "react";
 import "./App.css";
-import { NavLink } from "react-router-dom";
+import Navigation from "./components/Navigation";
 
 function App(props) {
   return (
     <div className="App">
       <header className="App-header">
-        <nav className="main-nav">
-          <NavLink to="/" exact>
-            Home
-          </NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/products">Products</NavLink>
-        </nav>
+        <Navigation role="main" />
       </header>
       {props.children}
+      <footer className="App-footer">
+        <Navigation role="footer" />
+      </footer>
     </div>
   );
 }

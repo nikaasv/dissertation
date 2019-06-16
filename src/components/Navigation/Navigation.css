@@ -1,0 +1,18 @@
+.main-nav a,
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  transition: color 0.3s linear;
+}
+
+.main-nav a.active,
+.footer-nav a.active {
+  color: aqua;
+}
+
+.main-nav a:hover,
+.footer-nav a:hover {
+  color: darkslateblue;
+  transition: color 0.1s linear;
+}
