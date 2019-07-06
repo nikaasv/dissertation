@@ -8,19 +8,18 @@
 .App-footer {
   background-color: #eedcd6;
   height: 20vh;
-  max-height: 65px;
+  max-height: 90px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1vmin);
   color: white;
 }
 
 .App-footer {
   width: 100vw;
-  position: fixed;
-  bottom: 0;
+
 }
 
 @font-face {
