@@ -5,13 +5,13 @@
 
 .App-header,
 .App-footer {
-  background-color: #282c34;
-  height: 15vh;
-  max-height: 60px;
+  background-color: #eedcd6;
+  height: 20vh;
+  max-height: 65px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }

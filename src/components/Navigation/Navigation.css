@@ -1,18 +1,28 @@
 .main-nav a,
 .footer-nav a {
   text-decoration: none;
-  color: white;
+  color: #8f4319;
   margin: 0 10px;
   transition: color 0.3s linear;
+  text-align: center;
 }
-
+.nav-logo {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  bottom: 10px;
+}
+.logo {
+  width: 65px;
+  height: 50px;
+}
 .main-nav a.active,
 .footer-nav a.active {
-  color: aqua;
+  color: grey;
 }
 
 .main-nav a:hover,
 .footer-nav a:hover {
-  color: darkslateblue;
+  color: #eedcd6;
   transition: color 0.1s linear;
 }
