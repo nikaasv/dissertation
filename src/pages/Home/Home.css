@@ -98,10 +98,12 @@
   width: 350px;
   height: 200px;
   background-color: #eedcd6;
-  border: solid 1px black;
+  margin: 0px 5px;
   font-family: baskerville;
 }
-
+.menu-2 {
+  background-color: #f5edeb;
+}
 .menu-icon {
   font-size: 30px;
   margin-top: 40px;
