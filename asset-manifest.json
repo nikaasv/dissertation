@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/dissertation/static/css/main.d6416465.chunk.css",
-    "main.js": "/dissertation/static/js/main.5f3f0285.chunk.js",
-    "main.js.map": "/dissertation/static/js/main.5f3f0285.chunk.js.map",
+    "main.css": "/dissertation/static/css/main.1e8ffdd0.chunk.css",
+    "main.js": "/dissertation/static/js/main.6b6b7d69.chunk.js",
+    "main.js.map": "/dissertation/static/js/main.6b6b7d69.chunk.js.map",
     "runtime~main.js": "/dissertation/static/js/runtime~main.dd48617d.js",
     "runtime~main.js.map": "/dissertation/static/js/runtime~main.dd48617d.js.map",
-    "static/js/2.3445cf8e.chunk.js": "/dissertation/static/js/2.3445cf8e.chunk.js",
-    "static/js/2.3445cf8e.chunk.js.map": "/dissertation/static/js/2.3445cf8e.chunk.js.map",
+    "static/js/2.61253e9c.chunk.js": "/dissertation/static/js/2.61253e9c.chunk.js",
+    "static/js/2.61253e9c.chunk.js.map": "/dissertation/static/js/2.61253e9c.chunk.js.map",
     "index.html": "/dissertation/index.html",
-    "precache-manifest.c050ff976bf9b9a44a5ef4b970edb1cc.js": "/dissertation/precache-manifest.c050ff976bf9b9a44a5ef4b970edb1cc.js",
+    "precache-manifest.24352c3bcf21bc2c7a86b33e7656c4cf.js": "/dissertation/precache-manifest.24352c3bcf21bc2c7a86b33e7656c4cf.js",
     "service-worker.js": "/dissertation/service-worker.js",
-    "static/css/main.d6416465.chunk.css.map": "/dissertation/static/css/main.d6416465.chunk.css.map",
+    "static/css/main.1e8ffdd0.chunk.css.map": "/dissertation/static/css/main.1e8ffdd0.chunk.css.map",
+    "static/media/App.css": "/dissertation/static/media/Sacramento-Regular.f16616a9.ttf",
+    "static/media/Navigation.css": "/dissertation/static/media/Copperplate.fd41d56c.ttc",
     "static/media/beeNecklace.jpg": "/dissertation/static/media/beeNecklace.ae5f60db.jpg",
     "static/media/blackNecklace.jpg": "/dissertation/static/media/blackNecklace.ced21cc3.jpg",
-    "static/media/chainNecklace.jpg": "/dissertation/static/media/chainNecklace.e9df1148.jpg"
+    "static/media/chainNecklace.jpg": "/dissertation/static/media/chainNecklace.e9df1148.jpg",
+    "static/media/Home.css": "/dissertation/static/media/girl.e029ad0a.jpg"
   }
 }
