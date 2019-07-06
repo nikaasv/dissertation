@@ -76,3 +76,42 @@
   padding: 5px;
   border: 1px solid #8f4319;
 }
+
+.menu {
+  margin: 1% 10px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-transform: uppercase;
+}
+.menu-1,
+.menu-2,
+.menu-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 200px;
+  background-color: #eedcd6;
+  border: solid 1px black;
+  font-family: baskerville;
+}
+
+.menu-icon {
+  font-size: 30px;
+  margin-top: 40px;
+  color: rgba(0, 0, 0, 0.644);
+  margin-bottom: -32px;
+}
+
+.menu-text {
+  margin: 5px 0px;
+  font-size: 20px;
+}
+.menu-text-2 {
+  margin: 5px 0px;
+  color: #2f2f2fb0;
+  font-size: 15px;
+}
