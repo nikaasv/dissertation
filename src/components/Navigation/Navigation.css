@@ -23,8 +23,7 @@
 .nav-logo {
   position: absolute;
   left: 0;
-  top: 10px;
-  bottom: 10px;
+  top: 20px;
 }
 .logo {
   width: 65px;
@@ -32,7 +31,7 @@
 }
 .main-nav a.active,
 .footer-nav a.active {
-  color: darkgrey;
+  color: #2F2F2F;
 }
 
 .main-nav a:hover,
