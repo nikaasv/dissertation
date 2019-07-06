@@ -13,7 +13,7 @@ const Product = props => {
       <h1>Product #{id}</h1>
       <h3>{product.name}</h3>
       <p>{product.description}</p>
-      {product.img && <img src={product.img} />}
+      {product.img && <img src={product.img} alt={product.description} />}
     </>
   );
 };

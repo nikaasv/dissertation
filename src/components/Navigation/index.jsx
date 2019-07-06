@@ -3,7 +3,7 @@ import "./Navigation.css";
 import { NavLink } from "react-router-dom";
 
 const Navigation = props => (
-  <nav className={`${props.role}-nav`}>
+  <nav className={`${props.function}-nav`}>
     <NavLink to="/" exact>
       Home
     </NavLink>

@@ -20,7 +20,6 @@ const products = [
   {
     id: 3,
     name: "Chain Necklace",
-    thumb: chainNecklace,
     description: "Chain Necklace ",
     price: "10£",
     thumb: chainNecklace
