@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   min-height: 100vh;
+  font-family: baskerville;
 }
 
 .App-header,
@@ -20,4 +21,13 @@
   width: 100vw;
   position: fixed;
   bottom: 0;
+}
+
+@font-face {
+  font-family: baskerville;
+  src: url("./assets/fonts/Baskerville.ttc");
+}
+@font-face {
+  font-family: sacramento;
+  src: url("assets/fonts/Sacramento/Sacramento-Regular.ttf");
 }

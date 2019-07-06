@@ -1,5 +1,5 @@
 .Product-card {
-  border: 10px solid black;
+  border: none;
   padding: 1vmin;
   margin: 25px 20px;
   width: 25vw;
@@ -25,8 +25,8 @@
   background-size: cover;
 }
 
-.Product-card:hover .Card-image,
-.Product-card:focus .Card-image {
+.Product-card:hover,
+.Product-card:focus {
   transform: scale(1.2);
   transition: transform 0.5s;
 }

@@ -1,3 +1,16 @@
+.main-nav,
+.footer-nav {
+  min-width: 35%;
+  display: flex;
+  justify-content: space-between;
+  font-family: copperplate;
+}
+
+@font-face {
+  font-family: copperplate;
+  src: url("../../assets/fonts/Copperplate.ttc");
+}
+
 .main-nav a,
 .footer-nav a {
   text-decoration: none;
@@ -5,6 +18,7 @@
   margin: 0 10px;
   transition: color 0.3s linear;
   text-align: center;
+  text-transform: uppercase;
 }
 .nav-logo {
   position: absolute;
@@ -18,11 +32,11 @@
 }
 .main-nav a.active,
 .footer-nav a.active {
-  color: grey;
+  color: darkgrey;
 }
 
 .main-nav a:hover,
 .footer-nav a:hover {
-  color: #eedcd6;
+  color: black;
   transition: color 0.1s linear;
 }
