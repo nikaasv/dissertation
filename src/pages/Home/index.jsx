@@ -36,6 +36,14 @@ const Home = props => (
         <FontAwesomeIcon className="menu-icon" icon={faShoppingBag} />
       </div>
     </section>
+    <section className="home-grid">
+        <div className="grid">
+
+        </div>
+        <div className="grid-window1"></div>
+        <div className="grid-window2"></div>
+
+    </section>
   </>
 );
 
