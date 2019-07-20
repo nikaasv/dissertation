@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/dissertation/static/css/main.1b863667.chunk.css",
-    "main.js": "/dissertation/static/js/main.6b6b7d69.chunk.js",
-    "main.js.map": "/dissertation/static/js/main.6b6b7d69.chunk.js.map",
+    "main.css": "/dissertation/static/css/main.0e74d8ce.chunk.css",
+    "main.js": "/dissertation/static/js/main.59e7071f.chunk.js",
+    "main.js.map": "/dissertation/static/js/main.59e7071f.chunk.js.map",
     "runtime~main.js": "/dissertation/static/js/runtime~main.dd48617d.js",
     "runtime~main.js.map": "/dissertation/static/js/runtime~main.dd48617d.js.map",
-    "static/js/2.61253e9c.chunk.js": "/dissertation/static/js/2.61253e9c.chunk.js",
-    "static/js/2.61253e9c.chunk.js.map": "/dissertation/static/js/2.61253e9c.chunk.js.map",
+    "static/js/2.2d765178.chunk.js": "/dissertation/static/js/2.2d765178.chunk.js",
+    "static/js/2.2d765178.chunk.js.map": "/dissertation/static/js/2.2d765178.chunk.js.map",
     "index.html": "/dissertation/index.html",
-    "precache-manifest.9bb5a0c02377b9f0469f6862a18e2279.js": "/dissertation/precache-manifest.9bb5a0c02377b9f0469f6862a18e2279.js",
+    "precache-manifest.4f1b9e63a648f1a572ec3c8a57d9d345.js": "/dissertation/precache-manifest.4f1b9e63a648f1a572ec3c8a57d9d345.js",
     "service-worker.js": "/dissertation/service-worker.js",
-    "static/css/main.1b863667.chunk.css.map": "/dissertation/static/css/main.1b863667.chunk.css.map",
+    "static/css/main.0e74d8ce.chunk.css.map": "/dissertation/static/css/main.0e74d8ce.chunk.css.map",
     "static/media/App.css": "/dissertation/static/media/Sacramento-Regular.f16616a9.ttf",
     "static/media/Navigation.css": "/dissertation/static/media/Copperplate.fd41d56c.ttc",
     "static/media/beeNecklace.jpg": "/dissertation/static/media/beeNecklace.ae5f60db.jpg",
     "static/media/blackNecklace.jpg": "/dissertation/static/media/blackNecklace.ced21cc3.jpg",
     "static/media/chainNecklace.jpg": "/dissertation/static/media/chainNecklace.e9df1148.jpg",
-    "static/media/Home.css": "/dissertation/static/media/girl.e029ad0a.jpg"
+    "static/media/Home.css": "/dissertation/static/media/girl.e029ad0a.jpg",
+    "static/media/goldenRing.jpg": "/dissertation/static/media/goldenRing.74e1987d.jpg",
+    "static/media/twoGolden.jpg": "/dissertation/static/media/twoGolden.83c59de2.jpg"
   }
 }

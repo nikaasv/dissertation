@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ea5816476773ea7f61623b8162a6ebc",
+    "revision": "efd8a7032529062d6acee9fce53a7355",
     "url": "/dissertation/index.html"
   },
   {
-    "revision": "2f402373423550b187a1",
-    "url": "/dissertation/static/css/main.1b863667.chunk.css"
+    "revision": "5cb0da8c2e8c8659e6f0",
+    "url": "/dissertation/static/css/main.0e74d8ce.chunk.css"
   },
   {
-    "revision": "be9bc5e6c73b07fad904",
-    "url": "/dissertation/static/js/2.61253e9c.chunk.js"
+    "revision": "7e950b3be252f0d1fd30",
+    "url": "/dissertation/static/js/2.2d765178.chunk.js"
   },
   {
-    "revision": "2f402373423550b187a1",
-    "url": "/dissertation/static/js/main.6b6b7d69.chunk.js"
+    "revision": "5cb0da8c2e8c8659e6f0",
+    "url": "/dissertation/static/js/main.59e7071f.chunk.js"
   },
   {
     "revision": "e3d0a834d5d78dde0156",
@@ -46,5 +46,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e029ad0a22c170668b833aa74c53986c",
     "url": "/dissertation/static/media/girl.e029ad0a.jpg"
+  },
+  {
+    "revision": "74e1987d357d28c300e722e2d89776c1",
+    "url": "/dissertation/static/media/goldenRing.74e1987d.jpg"
+  },
+  {
+    "revision": "83c59de23181e54fccf5dc608f0d1cfd",
+    "url": "/dissertation/static/media/twoGolden.83c59de2.jpg"
   }
 ]);
