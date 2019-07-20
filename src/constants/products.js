@@ -6,15 +6,18 @@ import twoGolden from "../assets/images/twoGolden.jpg";
 
 const products = [
   {
-    id: 1,
+    id: "bee-necklace",
     name: "Bee Necklace",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     price: "£30",
-    thumb: beeNecklace
+    thumb: beeNecklace,
+    img: twoGolden,
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
   {
-    id: 2,
+    id: "black-necklace",
     name: "Black Necklace",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -25,16 +28,19 @@ const products = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
   {
-    id: 3,
+    id: "chain-necklace",
     name: "Chain Necklace",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     price: "30£",
-    thumb: chainNecklace
+    thumb: chainNecklace,
+    img: twoGolden,
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
   {
-    id: 4,
-    name: "Teo Golden Rings",
+    id: "two-golden",
+    name: "Two Golden Rings",
     thumb: beeNecklace,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
@@ -43,7 +49,7 @@ const products = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
   {
-    id: "Chain Ring",
+    id: "chain-ring",
     name: "Chain Ring",
     thumb: beeNecklace,
     description:
