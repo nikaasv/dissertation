@@ -110,7 +110,6 @@
   color: rgba(0, 0, 0, 0.644);
   margin-bottom: -32px;
 }
-
 .menu-text {
   margin: 5px 0px;
   font-size: 20px;
@@ -148,4 +147,4 @@ justify-content: center;
 border: #000000 solid 2px;
 width: 500px;
 height: 200px;
-  }
+}
