@@ -13,21 +13,17 @@
     border: 1px solid #8f4219a9;
   }
 
-  .product-container-two {
+  .about-us {
     width: 70%;
     height: 20%;
-    display: flex;
-    justify-content: center;
     margin-bottom: 40px;
-    align-content: center;
     margin: 20px auto;
-    align-content: center;
     border: 1px solid rgba(87, 87, 87, 0.404);
     padding: 3%;
   }
 
   .heading {
-    
+    /* align-content: center; */
   }
   .text {
 
