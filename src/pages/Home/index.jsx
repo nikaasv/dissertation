@@ -13,7 +13,7 @@ const Home = props => (
       <div className="border-box">
         <div className="title-box">
           <h2 className="title"> Minimal Shine </h2>
-          <p className="heading"> Your minimalistic accessory shop</p>
+          <p className="heading"> Simplicity is the ultimate sophistication</p>
           <button className="title-button">discover now</button>
         </div>
       </div>
@@ -37,12 +37,12 @@ const Home = props => (
       </div>
     </section>
     <section className="home-grid">
-        <div className="grid">
-
-        </div>
-        <div className="grid-window1"></div>
-        <div className="grid-window2"></div>
-
+      <div className="grid-1">
+        <p> image 1</p>
+      </div>
+      <div className="grid-2">
+        <p> image 2 </p>
+      </div>
     </section>
   </>
 );

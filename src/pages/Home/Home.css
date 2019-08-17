@@ -120,11 +120,32 @@
   color: #2f2f2fb0;
   font-size: 15px;
 }
-.grid {
+.home-grid {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 350px;
   height: 200px;
+  background-color: #eedcd6;
+  margin: 0px 5px;
+  font-family: baskerville;
 }
+.grid-1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: #000000 solid 2px;
+width: 350px;
+height: 200px;
+}
+.grid-2 {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: #000000 solid 2px;
+width: 500px;
+height: 200px;
+  }
