@@ -32,3 +32,10 @@ position: relative;
   src: url("assets/fonts/Sacramento/Sacramento-Regular.ttf");
 }
 
+@media only screen and (max-width: 768px) {
+.App-header {
+  display: initial;
+  font-family: baskerville;
+}
+
+}
