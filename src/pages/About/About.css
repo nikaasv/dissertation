@@ -7,6 +7,7 @@
     align-items: center;
     background-size: cover;
     background-position-y: center;
+    background-position-x: center;
   }
   .border-box {
     padding: 5px;

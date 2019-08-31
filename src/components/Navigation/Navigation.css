@@ -39,3 +39,9 @@
   color: black;
   transition: color 0.1s linear;
 }
+.nav-icon {
+  color: rgba(0, 0, 0, 0.644);
+  right: 170px;
+  position: absolute;
+  font-size: 4vmin;
+}
