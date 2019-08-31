@@ -119,32 +119,28 @@
   color: #2f2f2fb0;
   font-size: 15px;
 }
-.home-grid {
+.menu-bottom {
+  margin: 1% 10px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-transform: uppercase;
+}
+.grid-1, .grid-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 350px;
-  height: 200px;
-  background-color: #eedcd6;
-  margin: 0px 5px;
+  height: 350px;
+  margin: 5px 5px;
   font-family: baskerville;
+  color: #272727;
 }
 .grid-1 {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-border: #000000 solid 2px;
-width: 350px;
-height: 200px;
+  background-image: url("../../assets/images/neck.jpg");
 }
 .grid-2 {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-border: #000000 solid 2px;
-width: 500px;
-height: 200px;
+  background-image: url("../../assets/images/acc.jp2");
 }

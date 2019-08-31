@@ -36,12 +36,12 @@ const Home = props => (
         <FontAwesomeIcon className="menu-icon" icon={faShoppingBag} />
       </div>
     </section>
-    <section className="home-grid">
+    <section className="menu-bottom">
       <div className="grid-1">
-        <p> image 1</p>
+        <p> NECKLACE</p>
       </div>
       <div className="grid-2">
-        <p> image 2 </p>
+        <p> EARRINGS </p>
       </div>
     </section>
   </>
