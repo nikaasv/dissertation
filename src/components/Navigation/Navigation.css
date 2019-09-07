@@ -68,12 +68,10 @@
 #menuToggle
 {
   display: block;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  
+  position: absolute;
+  top: -20px;
+  right: 50px;
   z-index: 1;
-  
   -webkit-user-select: none;
   user-select: none;
 }
@@ -160,27 +158,23 @@
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
-{
+#menu{
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
+  top: -40px;
+  width: 100vw;
   padding: 50px;
-  padding-top: 125px;
+  display: flex;
   font-family: baskerville;
   background: #ededed;
   list-style-type: none;
+  left: 100vw;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
-  
   transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: left 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
-{
+#menu li{
   padding: 10px 0;
   font-size: 30px;
   font-family: baskerville;
@@ -191,7 +185,7 @@
  */
 #menuToggle input:checked ~ ul
 {
-  transform: none;
+  left: calc(-100vw + 60px);
 }
 
 @media screen and (max-width: 768px) {
@@ -212,6 +206,8 @@
   }
   .mobile {
     display: block;
+    position: relative;
+    width: 100vw;
   }
   .desktop {
     display: none;

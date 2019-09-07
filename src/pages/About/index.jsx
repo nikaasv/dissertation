@@ -4,7 +4,7 @@ import "./About.css";
 const About = props => (
   <>
     <section className="hero-about-us">
-      <div className="border-box" />
+      <div className="border-box-about" />
       <div className="title-box-about">
         <h2 className="title"> About Minimal Shine </h2>
         <p className="heading"> Simplicity is the ultimate sophistication</p>

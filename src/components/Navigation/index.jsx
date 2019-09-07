@@ -40,17 +40,32 @@ const Navigation = ({ role }) => (
       )}
     </nav>
     <nav className={`${role}-nav mobile`}>
-      <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu">
-          <NavLink to="/about">About Us</NavLink>
-          <NavLink to="/contact">Contact Us</NavLink>
-          <NavLink to="/products">Products</NavLink>
-        </ul>
-      </div>
+      {role === "main" ? (
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <NavLink to="/about">About Us</NavLink>
+            <NavLink to="/contact">Contact Us</NavLink>
+            <NavLink to="/products">Products</NavLink>
+          </ul>
+        </div>
+      ) : (
+        <span>
+          <a href="https://twitter.com">
+            <FontAwesomeIcon className="soc-media" icon={faTwitter} />
+          </a>
+          <a href="https://facebook.com">
+            <FontAwesomeIcon className="soc-media" icon={faFacebook} />
+          </a>
+          <a href="https://instagram.com">
+            <FontAwesomeIcon className="soc-media" icon={faInstagram} />
+          </a>
+        </span>
+      )
+      }
     </nav>
   </>
 );

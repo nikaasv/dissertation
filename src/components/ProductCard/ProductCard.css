@@ -36,3 +36,20 @@
   color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+@media (max-width: 768px) {
+
+  .Product-card {
+
+    margin: 5px;
+    width: 60vw;
+    height: 30vh;
+    display: flex;
+    align-content: center;
+  }
+  .Card-image {
+    width: 100%;
+    min-height: 40vw;
+  }
+  
+  }
