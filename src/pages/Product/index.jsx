@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Product.css";
 import products from "../../constants/products";
-import { NavLink } from "react-router-dom";
 import QuantitySelector from "../../components/QuantitySelector";
 
+const availableSize = ["4", "5", "6", "7", "8"];
+
 const Product = props => {
+  const [size, setSize] = useState();
+  const [quantity, setQuantity] = useState(1);
+  const onClickSize = e => setSize(e.target.dataset.size);
+  const onChangeQuantity = e => setQuantity(e.target.value);
+  const onSubmit = () =>
+    alert(
+      `You added ${quantity} salmon coloured ${product.name} of size ${size}`
+    );
   const { id } = props.match.params;
-  console.log(id);
   const product = products.find(elem => elem.id === id);
 
   return (
@@ -16,30 +24,31 @@ const Product = props => {
         <div className="product-content">
           <h1>{product.name}</h1>
           <p>{product.description}</p>
-          <NavLink className="size" to="/">
-            Size 4
-          </NavLink>
-          <NavLink className="size" to="/">
-            Size 5
-          </NavLink>
-          <NavLink className="size" to="/">
-            Size 6
-          </NavLink>
-          <NavLink className="size" to="/">
-            Size 7
-          </NavLink>
-          <NavLink className="size" to="/">
-            Size 8
-          </NavLink>
+          {availableSize.map(value => (
+            <button
+              onClick={onClickSize}
+              data-size={value}
+              className={`size${size === value ? " active" : ""}`}
+            >
+              Size {value}
+            </button>
+          ))}
           <QuantitySelector
             id={"number-items"}
             label={`Quantity of ${product.name}:`}
             max={product.max}
+            value={quantity}
+            onChange={onChangeQuantity}
           />
           <div className="add-container">
-            <NavLink className="addItem" to="/">
+            <button
+              className="add-item"
+              to="/shoppingBag"
+              onClick={onSubmit}
+              disabled={!size}
+            >
               add to shopping bag
-            </NavLink>
+            </button>
           </div>
           <ul className="shippingList">
             {(product.shippingDescription || []).map(description => (
@@ -47,9 +56,9 @@ const Product = props => {
             ))}
           </ul>
           <div className="button-container">
-            <NavLink className="backButton" to="/products">
+            <button className="backButton" to="/products">
               Back
-            </NavLink>
+            </button>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ const Navigation = ({ role }) => (
           <NavLink to="/about">About Us</NavLink>
           <NavLink to="/contact">Contact Us</NavLink>
           <NavLink to="/products">Products</NavLink>
-          <NavLink to="/ShoppingBag">
+          <NavLink to="/shoppingBag">
             <FontAwesomeIcon className="nav-icon" icon={faShoppingBag} />{" "}
           </NavLink>
         </>
