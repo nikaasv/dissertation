@@ -209,6 +209,10 @@
     position: relative;
     width: 100vw;
   }
+  .mobile .nav-logo {
+    top: -20px;
+  }
+
   .desktop {
     display: none;
   }

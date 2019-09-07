@@ -40,6 +40,9 @@ const Navigation = ({ role }) => (
       )}
     </nav>
     <nav className={`${role}-nav mobile`}>
+      <NavLink className="nav-logo" to="/" exact>
+        <img className="logo" src={MS} alt="logo" />
+      </NavLink>
       {role === "main" ? (
         <div id="menuToggle">
           <input type="checkbox" />
@@ -64,8 +67,7 @@ const Navigation = ({ role }) => (
             <FontAwesomeIcon className="soc-media" icon={faInstagram} />
           </a>
         </span>
-      )
-      }
+      )}
     </nav>
   </>
 );
