@@ -6,11 +6,11 @@ function App(props) {
   return (
     <div className="App">
       <header className="App-header">
-        <Navigation function="main" />
+        <Navigation role="main" />
       </header>
       {props.children}
       <footer className="App-footer">
-        <Navigation function="footer" />
+        <Navigation role="footer" />
       </footer>
     </div>
   );

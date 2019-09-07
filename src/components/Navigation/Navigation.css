@@ -25,6 +25,12 @@
   left: 0;
   top: 20px;
 }
+.soc-media {
+  color: rgba(0, 0, 0, 0.644);
+  right: 170px;
+  font-size: 4vmin;
+}
+
 .logo {
   width: calc(50px + 3vmin);
   height: calc(30px + 3vmin);
@@ -46,11 +52,15 @@
   font-size: 4vmin;
 }
 
+.footer-nav {
+  min-width: 15%;
+}
+
 .mobile {
   display: none;
 }
 .desktop {
-  display: block;
+  display: flex;
 }
 
 
