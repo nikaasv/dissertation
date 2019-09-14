@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: copperplate;
-  src: url("../../assets/fonts/Copperplate.ttc");
+  src: url('../../assets/fonts/Copperplate.ttc');
 }
 
 .main-nav a,
@@ -23,6 +23,15 @@
   /* transition: color 0.3s linear; */
   /* text-align: center; */
   text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.main-nav a:last-child {
+  padding-right: 20px;
+}
+
+.footer-nav a svg {
+  font-size: 20px;
 }
 .nav-logo {
   /* position: absolute;
@@ -51,9 +60,21 @@
 }
 .nav-icon {
   color: rgba(0, 0, 0, 0.644);
-  right: 170px;
-  position: absolute;
+  /* right: 12vw; */
+  /* position: absolute; */
   font-size: 4vmin;
+}
+.nav-icon-badge {
+  background: salmon;
+  font-size: 3vmin;
+  border-radius: 2vmin;
+  width: 3vmin;
+  height: 3vmin;
+  margin-top: -2vmin;
+  /* margin-right: 2vw; */
+  /* right: 12vw; */
+  
+  position: absolute;
 }
 
 .footer-nav {
@@ -66,7 +87,9 @@
 .desktop {
   display: flex;
 }
-
+.desktop a {
+  margin: 0;
+}
 
 
 #menuToggle
@@ -87,8 +110,7 @@
   user-select: none; */
 }
 
-#menuToggle input
-{
+#menuToggle input {
   display: block;
   width: 40px;
   height: 32px;
@@ -105,8 +127,7 @@
 /*
  * Just a quick hamburger
  */
-#menuToggle span
-{
+#menuToggle span {
   display: block;
   width: 33px;
   height: 4px;
@@ -122,13 +143,11 @@
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
@@ -136,8 +155,7 @@
  * Transform all the slices of hamburger
  * into a crossmark.
  */
-#menuToggle input:checked ~ span
-{
+#menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(5px, 5px);
   background: #232323;
@@ -146,8 +164,7 @@
 /*
  * But let's hide the middle one.
  */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
@@ -164,7 +181,7 @@
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu{
+#menu {
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -340px;
