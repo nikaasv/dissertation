@@ -19,7 +19,7 @@ export const addItemToBag = dispatch => payload => {
 
 export const removeItemFromBag = dispatch => payload => {
   dispatch({
-    type: shoppingBagActions.CLEAN_BAG,
+    type: shoppingBagActions.REMOVE_ITEM_FROM_BAG,
     payload,
   })
 }

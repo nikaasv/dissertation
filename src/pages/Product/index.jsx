@@ -4,6 +4,7 @@ import products from '../../constants/products'
 import QuantitySelector from '../../components/QuantitySelector'
 import { connect } from 'react-redux'
 import { addItemToBag } from '../../actions'
+import { Link } from 'react-router-dom'
 
 const availableSize = ['4', '5', '6', '7', '8']
 
@@ -13,7 +14,14 @@ const Product = props => {
   const onClickSize = e => setSize(e.target.dataset.size)
   const onChangeQuantity = e => setQuantity(e.target.value)
   const onSubmit = () => {
-    props.addItemToBag({ quantity, size, product })
+    props.addItemToBag({
+      quantity,
+      size,
+      product,
+      id: Math.random()
+        .toString(26)
+        .slice(2),
+    })
     setSize(undefined)
     setQuantity(1)
   }
@@ -62,9 +70,9 @@ const Product = props => {
             ))}
           </ul>
           <div className='button-container'>
-            <button className='backButton' to='/products'>
-              Back
-            </button>
+            <Link to='/products'>
+              <button className='backButton'>Back</button>
+            </Link>
           </div>
         </div>
       </div>
