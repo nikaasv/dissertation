@@ -8,6 +8,7 @@ import Home from '../src/pages/Home'
 import About from './pages/About'
 import Products from './pages/Products'
 import Contact from './pages/Contact'
+import ShoppingBag from './pages/ShoppingBag'
 import { Provider } from 'react-redux'
 import configureStore from './store'
 
@@ -17,9 +18,10 @@ ReactDOM.render(
       <App>
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/about' exact component={About} />
+          <Route path='/about' component={About} />
           <Route path='/products' component={Products} />
-          <Route path='/contact' exact component={Contact} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/shopping-bag' component={ShoppingBag} />
         </Switch>
       </App>
     </Router>

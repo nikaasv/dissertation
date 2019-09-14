@@ -1,14 +1,14 @@
-import React from "react";
-import "./ProductList.css";
-import products from "../../constants/products";
-import ProductCard from "../ProductCard";
+import React from 'react'
+import './ProductList.css'
+import products from '../../constants/products'
+import ProductCard from '../ProductCard'
 
 const ProductList = props => (
-  <div className="products-container">
+  <div className='products-container'>
     {products.map(item => (
-      <ProductCard product={item} />
+      <ProductCard key={item.name} product={item} />
     ))}
   </div>
-);
+)
 
-export default ProductList;
+export default ProductList
